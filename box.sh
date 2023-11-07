@@ -17,6 +17,7 @@ blue(){
 
 #BBR
 function bbr(){
+yum -y install wget -y
 wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"
 chmod +x "/root/tcp.sh"
 chmod 777 "/root/tcp.sh"
